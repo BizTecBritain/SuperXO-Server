@@ -1,0 +1,28 @@
+{
+  "name": "superxo",
+  "version": "0.1.0",
+  "description": "A simple Node backend for multiplayer SuperXO.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "express-longpoll": "^0.0.6"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/superxo"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
